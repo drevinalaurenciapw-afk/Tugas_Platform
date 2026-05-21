@@ -15,5 +15,4 @@ if(isset($_GET['keyword'])){
 $query = mysqli_query($conn,
 "SELECT * FROM film 
 WHERE judul LIKE '%$keyword%'");
-WHERE judul LIKE '%$keyword%'");
 ?>
